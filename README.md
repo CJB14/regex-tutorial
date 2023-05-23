@@ -2,7 +2,9 @@
 As a web development student, I have developed a tutorial explaining a specifics of regex so that we can understand the search pattern the regex defines
 
 # Summary
-A Regex or regular expression is a sequence of characters that define a search pattern. Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings. It also looks for input validations. It is a technique commonly developed in theoretical computer science. We will look a a string of code using regex, this code looks for a match HTML tag.
+Short for regular expression, a regex is a string of text that lets you create patterns that help match, locate, and manage text. Perl is a great example of a programming language that utilizes regular expressions. However, its only one of the many places you can find regular expressions. Regular expressions can also be used from the command line and in text editors to find text within a file.
+
+When first trying to understand regular expressions, it seems as if it's a different language. However, mastering regular expressions can save you thousands of hours if you work with text or need to parse large amounts of data.
 
 # Example: 
 /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
